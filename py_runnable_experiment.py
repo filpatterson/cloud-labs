@@ -26,7 +26,7 @@ def hello():
       200:
         description: why would you go here, go away
     """
-    return 'well, you are on the rooty path, go to docs, this section was updated via CI/CD'
+    return 'well, you are on the rooty path, go to docs, this section was updated via CI/CD from second try'
 
 
 @app.route("/user/<string:job_id>")
