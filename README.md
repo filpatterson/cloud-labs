@@ -1,7 +1,3 @@
-You probably need just simplest_microservice folder for now.
+To perform launch of the application use file ```py_runnable_experiment.py```, all other files can be ignored.
 
-Other folders are my attempts to do something better. 
-Oh yeah, in that folder you will find bare Flask&Swagger, no K8s, Dockers or whatever.
-
-WARNING
-DON'T EVER TOUCH KUBERNETES FOLDER, DOCKERFILE OR ELSE
+Do not change any content of the Dockerfile and configuration ```yaml``` file (used to establish connection with Google Cloud services)
